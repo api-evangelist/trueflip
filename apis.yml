@@ -1,8 +1,26 @@
 aid: trueflip
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trueflip.png
 name: TrueFlip
-description: 'TrueFlip is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  TrueFlip was an international anonymous blockchain lottery with instant payouts,
+  open-source draw code, and a transparent prize fund, launched in 2017 with an
+  Ethereum token ICO and backed by Pantera Capital. The company's GitHub organization
+  has been dormant since 2018, and the trueflip.io domain is suspended at the
+  registrar (clientHold) with no DNS records; by early 2026 the domain was serving
+  unrelated crypto-casino affiliate content. No public API, developer documentation,
+  SDK packages, or machine-readable surface was found. Profile retained as a Pantera
+  Capital portfolio record.
 url: https://raw.githubusercontent.com/api-evangelist/trueflip/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,17 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- Blockchain
+- Lottery
+- Gaming
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://trueflip.io/
+- type: GitHubOrganization
+  url: https://github.com/TrueFlip
+- type: LLMsTxt
+  url: llms/trueflip-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
